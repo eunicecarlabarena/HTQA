@@ -27,3 +27,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Hometime/in
 
 WebUI.click(findTestObject('Object Repository/Page_Login  Hometime/button_Login'))
 
+WebUI.waitForPageLoad(5)
+
