@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://auth.koala.hometime.io/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_Login  Hometime/input_Email address_email'), 'eunice.barena+mcabi@hometime.io')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Hometime/input_Password_password'), 'cvW8qx4B2o1WegCEDy41Xg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Login  Hometime/button_Login'))
+
