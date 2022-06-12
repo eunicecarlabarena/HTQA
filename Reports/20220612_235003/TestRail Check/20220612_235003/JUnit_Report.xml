@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestRail Check" time="72.065" tests="2" failures="0" errors="1">
+   <testsuite name="TestRail Check" tests="2" failures="0" errors="1" time="72.065" skipped="0" timestamp="2022-06-12 23:50:11" hostname="Eunice Carla - LAPTOP-3IOT34SM" id="Test Suites/TestRail Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Eunice Carla\\git\\HTQA\\Reports\\20220612_235003\\TestRail Check\\20220612_235003"/>
+         <property name="logFiles" value="C:\\Users\\Eunice Carla\\git\\HTQA\\Reports\\20220612_235003\\TestRail Check\\20220612_235003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Eunice Carla - LAPTOP-3IOT34SM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.63"/>
+         <property name="hostAddress" value="192.168.0.109"/>
+         <property name="sessionId" value="4c9a0886206ed910c703219fb629d04b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="70.693" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-06-12 23:50:12 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-06-12 23:50:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-12 23:50:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-12 23:50:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-12 23:50:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-12 23:50:16 - [TEST_STEP][PASSED] - navigateToUrl("https://auth.koala.hometime.io/login"): Navigate to 'https://auth.koala.hometime.io/login' successfully
+
+2022-06-12 23:50:18 - [MESSAGE][PASSED] - Navigate to 'https://auth.koala.hometime.io/login' successfully
+
+2022-06-12 23:50:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login  Hometime/input_Email address_email"), "eunice.barena+mcabi@hometime.io"): Text 'eunice.barena+mcabi@hometime.io' is set on object 'Object Repository/Page_Login  Hometime/input_Email address_email'
+
+2022-06-12 23:50:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='field-8']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-12 23:50:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Login  Hometime/input_Email address_email'. Try using Self-healing.
+
+2022-06-12 23:50:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Login  Hometime/input_Email address_email' was broken. Propose an alternative one: '//div[@id='ht-root']/div[2]/form/div/div/div/div/div/input'.
+
+2022-06-12 23:51:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='field-8']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-12 23:51:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Login  Hometime/input_Email address_email'. Try using Self-healing.
+
+2022-06-12 23:51:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Login  Hometime/input_Email address_email' was broken. Propose an alternative one: '//div[@id='ht-root']/div[2]/form/div/div/div/div/div/input'.
+
+2022-06-12 23:51:21 - [MESSAGE][PASSED] - Text 'eunice.barena+mcabi@hometime.io' is set on object 'Object Repository/Page_Login  Hometime/input_Email address_email'
+
+2022-06-12 23:51:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login  Hometime/input_Password_password"), "cvW8qx4B2o1WegCEDy41Xg=="): Text ****** has been set on object 'Object Repository/Page_Login  Hometime/input_Password_password'
+
+2022-06-12 23:51:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login  Hometime/input_Password_password'
+
+2022-06-12 23:51:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login  Hometime/button_Login")): Object: 'Object Repository/Page_Login  Hometime/button_Login' is clicked on
+
+2022-06-12 23:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login  Hometime/button_Login' is clicked on
+
+2022-06-12 23:51:22 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2022-06-12 23:51:22 - [TEST_STEP][PASSED] - try: null
+
+2022-06-12 23:51:22 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2022-06-12 23:51:22 - [TEST_STEP][PASSED] - catch (NullPointerException ex): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestRail_Update_Run_With_Results" time="0.028" classname="Test Cases/TestRail_Update_Run_With_Results" status="ERROR">
+         <error type="ERROR" message="Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+"/>
+         <system-out><![CDATA[2022-06-12 23:51:23 - [TEST_CASE][ERROR] - Test Cases/TestRail_Update_Run_With_Results: Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+
+
+2022-06-12 23:51:23 - [TEST_STEP][ERROR] - response = Testrail.get_tests(G_testrail_run_id): Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at TestRail_Update_Run_With_Results.run(TestRail_Update_Run_With_Results:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655049003364.run(TempTestSuite1655049003364.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+
+
+2022-06-12 23:51:23 - [MESSAGE][ERROR] - No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+
+2022-06-12 23:51:23 - [MESSAGE][ERROR] - Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at TestRail_Update_Run_With_Results.run(TestRail_Update_Run_With_Results:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:366)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1655049003364.run(TempTestSuite1655049003364.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)
+
+
+2022-06-12 23:51:23 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+2022-06-12 23:51:23 - [TEST_STEP][PASSED] - try: null
+
+2022-06-12 23:51:23 - [TEST_STEP][PASSED] - tc_ids = getTestCaseVariables()["testrail_tc_id"].split(","): null
+
+2022-06-12 23:51:23 - [TEST_STEP][PASSED] - catch (NullPointerException ex): null]]></system-out>
+         <system-err><![CDATA[2022-06-12 23:51:23 - [TEST_CASE][ERROR] - Test Cases/TestRail_Update_Run_With_Results: Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-12 23:50:11 - [TEST_SUITE][ERROR] - TestRail Check: Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)]]></system-out>
+      <system-err><![CDATA[2022-06-12 23:50:11 - [TEST_SUITE][ERROR] - TestRail Check: Test Cases/TestRail_Update_Run_With_Results FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: Testrail.get_tests() is applicable for argument types: (java.lang.String) values: [117]
+Possible solutions: getClass(), getAt(java.lang.String)]]></system-err>
+   </testsuite>
+</testsuites>

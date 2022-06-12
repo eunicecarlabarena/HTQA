@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login  Hometime/input_Email address_email",
+      "brokenLocator": "//input[@id\u003d\u0027field-8\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027ht-root\u0027]/div[2]/form/div/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220612_235003/TestRail Check/20220612_235003/Object Repository/Page_Login  Hometime/input_Email address_email_idRelative.png"
+    }
+  ]
+}
