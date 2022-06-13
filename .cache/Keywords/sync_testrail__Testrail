@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "F0A3FC8785D77A4C2E6FFF40505309FC",
+  "keywordClasses": [
+    {
+      "name": "sync_testrail.Testrail",
+      "keywordMethods": [
+        {
+          "name": "get_tests",
+          "parameters": [
+            {
+              "name": "id",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestRail Check,Chrome 102.0.5005.63,,,2022-06-12 23:24:13,2022-06-12 23:25:55,1m - 41.981s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 102.0.5005.63,Verify if user is able to login with valid credentials,,2022-06-12 23:24:14,2022-06-12 23:25:55,1m - 41.681s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.63,,,2022-06-12 23:24:14,2022-06-12 23:24:17,2.590s,PASSED
+"navigateToUrl(""https://auth.koala.hometime.io/login"")",Chrome 102.0.5005.63,,,2022-06-12 23:24:17,2022-06-12 23:24:20,3.377s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Hometime/input_Email address_email""), ""eunice.barena+mcabi@hometime.io"")",Chrome 102.0.5005.63,,,2022-06-12 23:24:20,2022-06-12 23:25:23,1m - 3.248s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Hometime/input_Password_password""), ""cvW8qx4B2o1WegCEDy41Xg=="")",Chrome 102.0.5005.63,,,2022-06-12 23:25:23,2022-06-12 23:25:55,31.508s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Hometime/button_Login""))",Chrome 102.0.5005.63,,,2022-06-12 23:25:55,2022-06-12 23:25:55,0.479s,PASSED
+Start listener action : afterTestCase,Chrome 102.0.5005.63,,,2022-06-12 23:25:55,2022-06-12 23:25:55,0.019s,PASSED

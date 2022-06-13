@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Verify if user is able to login with valid credentials</description>
-   <name>Login</name>
+   <description>Testing Testrail Connection</description>
+   <name>TestRail_Update_Run_With_Results</name>
    <tag></tag>
    <integratedEntity>
       <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
       <properties>
          <entry>
             <key>testRail.testcase.id</key>
-            <value>203658</value>
+            <value>15188</value>
          </entry>
       </properties>
       <type>TESTCASE</type>
    </integratedEntity>
    <comment></comment>
-   <testCaseGuid>fd3c91a1-8501-4b26-9a1b-e1815426786e</testCaseGuid>
+   <testCaseGuid>feb49c93-d410-49f3-8758-59c694f5bce0</testCaseGuid>
 </TestCaseEntity>
