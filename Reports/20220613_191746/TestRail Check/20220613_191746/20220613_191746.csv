@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestRail Check,Chrome 102.0.5005.63,,,2022-06-13 19:17:57,2022-06-13 19:19:39,1m - 42.463s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 102.0.5005.63,Verify if user is able to login with valid credentials,,2022-06-13 19:17:57,2022-06-13 19:19:39,1m - 42.075s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.63,,,2022-06-13 19:17:58,2022-06-13 19:18:02,3.657s,PASSED
+"navigateToUrl(""https://auth.koala.hometime.io/login"")",Chrome 102.0.5005.63,,,2022-06-13 19:18:02,2022-06-13 19:18:03,1.332s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login  Hometime/input_Email address_email""), ""eunice.barena+mcabi@hometime.io"")",Chrome 102.0.5005.63,,,2022-06-13 19:18:03,2022-06-13 19:19:06,1m - 3.507s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login  Hometime/input_Password_password""), ""cvW8qx4B2o1WegCEDy41Xg=="")",Chrome 102.0.5005.63,,,2022-06-13 19:19:06,2022-06-13 19:19:38,31.879s,PASSED
+"click(findTestObject(""Object Repository/Page_Login  Hometime/button_Login""))",Chrome 102.0.5005.63,,,2022-06-13 19:19:38,2022-06-13 19:19:39,0.461s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Screenshot of Dashboard"")",Chrome 102.0.5005.63,,,2022-06-13 19:19:39,2022-06-13 19:19:39,0.681s,PASSED
+Start listener action : afterTestCase,Chrome 102.0.5005.63,,,2022-06-13 19:19:39,2022-06-13 19:19:39,0.029s,PASSED
