@@ -1,0 +1,28 @@
+1
+00:00:00,468 --> 00:00:03,223
+1. openBrowser("")
+
+2
+00:00:03,238 --> 00:00:04,601
+5. navigateToUrl("https://auth.koala.hometime.io/login")
+
+3
+00:00:04,602 --> 00:01:08,077
+9. setText(findTestObject("Object Repository/Page_Login  Hometime/input_Email address_email"), "eunice.barena+mcabi@hometime.io")
+
+4
+00:01:08,078 --> 00:01:39,793
+13. setEncryptedText(findTestObject("Object Repository/Page_Login  Hometime/input_Password_password"), "cvW8qx4B2o1WegCEDy41Xg==")
+
+5
+00:01:39,794 --> 00:01:40,248
+17. click(findTestObject("Object Repository/Page_Login  Hometime/button_Login"))
+
+6
+00:01:40,259 --> 00:01:40,259
+1. try
+
+7
+00:01:40,259 --> 00:01:40,294
+1. tc_ids = getTestCaseVariables()["testrail_tc_id"].split(",")
+
